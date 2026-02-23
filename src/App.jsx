@@ -4,7 +4,7 @@ import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
+  const [yesPressed, sValentinesed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
 
   const handleNoClick = () => {
@@ -43,7 +43,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
+            امواحححححححححح!!!
           </div>
         </>
       ) : (
@@ -61,7 +61,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            انتِ رورايتي?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
